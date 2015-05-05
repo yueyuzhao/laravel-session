@@ -1,0 +1,21 @@
+{
+    "name": "yueyu/session",
+    "description": "laravel session using php original session.",
+    "keywords": ["session", "laravel", "simple"],
+    "authors": [
+        {
+            "name": "yueyu",
+            "email": "donald050800@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Yueyu\\Session": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
